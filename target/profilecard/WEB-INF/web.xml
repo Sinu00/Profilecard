@@ -1,0 +1,74 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Profile Card Application</display-name> <!-- Optional but recommended -->
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>FirstServlet</servlet-name>
+    <servlet-class>com.example.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern>/serv</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>drive</servlet-name>
+    <servlet-class>com.example.drive</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>drive</servlet-name>
+    <url-pattern>/drive</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>eligible</servlet-name>
+    <servlet-class>com.example.eligible</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>eligible</servlet-name>
+    <url-pattern>/eligible</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>profiledetails</servlet-name>
+    <servlet-class>com.example.profiledetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>profiledetails</servlet-name>
+    <url-pattern>/profiledetails</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>createnew</servlet-name>
+    <servlet-class>com.example.createnew</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>createnew</servlet-name>
+    <url-pattern>/createnew</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>signup</servlet-name>
+    <servlet-class>com.example.signup</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>signup</servlet-name>
+    <url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>editpage</servlet-name>
+    <servlet-class>com.example.editpage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>editpage</servlet-name>
+    <url-pattern>/editpage</url-pattern>
+  </servlet-mapping>
+</web-app>
